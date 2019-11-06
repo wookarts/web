@@ -2,16 +2,16 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "wookarts",
     "description": "",
-    "home_page_url": "http://www.wookarts.com",
-    "feed_url": "http://www.wookarts.com/feed.json",
+    "home_page_url": "https://www.wookarts.com",
+    "feed_url": "https://www.wookarts.com/feed.json",
     "user_comment": "",
     "author": {
         "name": "Nathan Leary"
     },
     "items": [
         {
-            "id": "http://www.wookarts.com/test.html",
-            "url": "http://www.wookarts.com/test.html",
+            "id": "https://www.wookarts.com/test.html",
+            "url": "https://www.wookarts.com/test.html",
             "title": "test",
             "author": {
                 "name": "Nathan Leary"
