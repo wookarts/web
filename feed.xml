@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>wookarts</title>
+    <link href="http://wookarts.com/feed.xml" rel="self" />
+    <link href="http://wookarts.com" />
+    <updated>2019-11-06T14:48:16+10:00</updated>
+    <author>
+        <name>Nathan Leary</name>
+    </author>
+    <id>http://wookarts.com</id>
+
+    <entry>
+        <title>test</title>
+        <author>
+            <name>Nathan Leary</name>
+        </author>
+        <link href="http://wookarts.com/test.html"/>
+        <id>http://wookarts.com/test.html</id>
+
+        <updated>2019-11-06T14:48:02+10:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+</feed>
