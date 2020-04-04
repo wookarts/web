@@ -18,7 +18,7 @@
 					//setTimeout(function(){
 						 if (!window.loadedCSS) {
 							window.loadedCSS = true;
-						(document.querySelector('html').setAttribute('class' , document.querySelector('html').getAttribute('class') + '').replace(' fade', '') + ' ' + 'fade');
+						document.querySelector('html').setAttribute('class' , String(document.querySelector('html').getAttribute('class')).replace(' fade', '') + ' ' + 'fade');
 						}
 					// }, 100);
 					}
@@ -60,15 +60,17 @@
 
 
 			html {
-				opacity: 0 !important;
+				opacity: 0;
 			}
 			
 			html.fade {
-				-webkit-animation: fadein 0.3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 0.3s; /* Firefox < 16 */
-        -ms-animation: fadein 0.3s; /* Internet Explorer */
-         -o-animation: fadein 0.3s; /* Opera < 12.1 */
-            animation: fadein 0.3s;
+				-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            
+            opacity: 1;
 			}
 		</style>
 
@@ -84,7 +86,7 @@
 					//setTimeout(function(){
 						 if (!window.loadedCSS) {
 							window.loadedCSS = true;
-						(document.querySelector('html').setAttribute('class' , document.querySelector('html').getAttribute('class') + '').replace(' fade', '') + ' ' + 'fade');
+						document.querySelector('html').setAttribute('class' , String(document.querySelector('html').getAttribute('class')).replace(' fade', '') + ' ' + 'fade');
 						}
 					// }, 100);
 					}
@@ -107,7 +109,7 @@
 					//setTimeout(function(){
 						 if (!window.loadedCSS) {
 							window.loadedCSS = true;
-						(document.querySelector('html').setAttribute('class' , document.querySelector('html').getAttribute('class') + '').replace(' fade', '') + ' ' + 'fade');
+						document.querySelector('html').setAttribute('class' , String(document.querySelector('html').getAttribute('class')).replace(' fade', '') + ' ' + 'fade');
 						}
 					// }, 100);
 					}
